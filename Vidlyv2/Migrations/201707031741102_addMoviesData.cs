@@ -8,6 +8,7 @@ namespace Vidlyv2.Migrations
         public override void Up()
         {
             Sql("INSERT INTO MOVIES (name,genreid,dateadded,releasedate,numberinstock) VALUES ('FOREST GUMP',3,'2014-05-02','2016-02-04',4)");
+           
         }
         
         public override void Down()
